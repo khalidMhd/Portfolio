@@ -22,7 +22,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/khalid.khalidokz",
   instagram: "https://www.instagram.com/khalidm.official",
 
-  // stackoverflow: "https://stackoverflow.com/users/10422806/KhLID-pasta"
+  // stackoverflow: "https://stackoverflow.com/users/10422806/Khalid"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -210,6 +210,10 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/asp.png"),
+      link: "http://108.60.209.101:5010/signin"
+    },
+    {
       image: require("./assets/images/drustDaam.png"),
       link: "https://drust-daam.herokuapp.com/signin"
     },
@@ -241,10 +245,7 @@ const bigProjects = {
       image: require("./assets/images/api.png"),
       link: "https://sabzi-ghar.herokuapp.com/swagger/"
     },
-    {
-      image: require("./assets/images/pas.png"),
-      link: "https://safe-password.herokuapp.com/"
-    }
+  
   ]
 };
 
