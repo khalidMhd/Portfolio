@@ -10,7 +10,7 @@ const greeting = {
   username: "Khalid Mehmood",
   title: "Hi all, I'm Khalid",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications, real time chat applications, Swagger UI/APIs and chrome extension with JavaScript / Reactjs / Nodejs / Mongodb / React Redux / Socket io / Firebase and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ryYmVkS0KazprqCBZeo6Bo9rTlNIqeCY/view"
+  resumeLink: "https://drive.google.com/file/d/184Uwybo_2Ag-HV0LpJAMjyO9BihymrHn/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -21,6 +21,7 @@ const socialMediaLinks = {
   gmail: "khalidmhd1137@gmail.com",
   facebook: "https://www.facebook.com/khalid.khalidokz",
   instagram: "https://www.instagram.com/khalidm.official",
+  linkedin: "https://www.linkedin.com/in/khalidmhd/",
 
   // stackoverflow: "https://stackoverflow.com/users/10422806/Khalid"
   // Instagram and Twitter are also supported in the links!
@@ -130,7 +131,7 @@ const educationInfo = {
       schoolName: "City University",
       logo: require("./assets/images/cityLogo.jpg"),
       subHeader: "Bachelor of Science in Computer Software",
-      duration: "September 2018 - Current",
+      duration: "September 2018 - 2022",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -210,12 +211,16 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
+      image: require("./assets/images/FYP.png"),
+      link: "http://108.60.209.101:2000/signin"
+    },
+    {
       image: require("./assets/images/asp.png"),
       link: "http://108.60.209.101:5010/signin"
     },
     {
       image: require("./assets/images/drustDaam.png"),
-      link: "https://drust-daam.herokuapp.com/signin"
+      link: "https://pricecontrol.herokuapp.com/signin"
     },
     {
       image: require("./assets/images/polio.PNG"),
