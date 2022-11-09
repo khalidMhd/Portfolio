@@ -77,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -211,12 +215,12 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/FYP.png"),
-      link: "http://108.60.209.101:2000/signin"
+      image: require("./assets/images/vechile.png"),
+      link: "https://vehicle-valeting.herokuapp.com"
     },
     {
-      image: require("./assets/images/asp.png"),
-      link: "http://108.60.209.101:5010/signin"
+      image: require("./assets/images/ccsc.png"),
+      link: "https://ccscenter.herokuapp.com"
     },
     {
       image: require("./assets/images/drustDaam.png"),
@@ -226,6 +230,15 @@ const bigProjects = {
       image: require("./assets/images/polio.PNG"),
       link: "https://polioapp.herokuapp.com/"
     },
+    {
+      image: require("./assets/images/FYP.png"),
+      link: "http://108.60.209.101:2000/signin"
+    },
+    {
+      image: require("./assets/images/asp.png"),
+      link: "http://108.60.209.101:5010/signin"
+    },
+   
     {
       image: require("./assets/images/itmd.PNG"),
       link: "https://ittemad.herokuapp.com/"
