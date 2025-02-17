@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d084691b5c9f8292a8ed5daa2c08873d",
+    "revision": "01f419d8a539d6415f51fdcaa106bc95",
     "url": "/index.html"
   },
   {
-    "revision": "4052b19dc83667f42a62",
-    "url": "/static/css/2.4ea9e08f.chunk.css"
+    "revision": "136fadec03dcd8ba6134",
+    "url": "/static/css/2.cccce122.chunk.css"
   },
   {
-    "revision": "4ec6d9e37731b1a98958",
-    "url": "/static/css/3.6a352120.chunk.css"
+    "revision": "34a4c105e48518e03fc9",
+    "url": "/static/css/3.3a26ebde.chunk.css"
   },
   {
-    "revision": "73d5c14ed65631df5a94",
-    "url": "/static/css/4.9de7adcb.chunk.css"
+    "revision": "ab96f399d6c5f7a105ec",
+    "url": "/static/css/4.ee2a0142.chunk.css"
   },
   {
-    "revision": "1b4ed0c12ead579a3263",
-    "url": "/static/css/main.d84ce36a.chunk.css"
+    "revision": "37622b6959f7ddfa0480",
+    "url": "/static/css/main.a3593b4a.chunk.css"
   },
   {
-    "revision": "4052b19dc83667f42a62",
-    "url": "/static/js/2.2d290dc2.chunk.js"
+    "revision": "136fadec03dcd8ba6134",
+    "url": "/static/js/2.d1840fdf.chunk.js"
   },
   {
-    "revision": "4ec6d9e37731b1a98958",
-    "url": "/static/js/3.4b24d961.chunk.js"
+    "revision": "34a4c105e48518e03fc9",
+    "url": "/static/js/3.bc1b909e.chunk.js"
   },
   {
-    "revision": "73d5c14ed65631df5a94",
-    "url": "/static/js/4.baf115b2.chunk.js"
+    "revision": "ab96f399d6c5f7a105ec",
+    "url": "/static/js/4.0905cce9.chunk.js"
   },
   {
-    "revision": "1b4ed0c12ead579a3263",
-    "url": "/static/js/main.e5b3bb6f.chunk.js"
+    "revision": "37622b6959f7ddfa0480",
+    "url": "/static/js/main.65b98976.chunk.js"
   },
   {
-    "revision": "52b2349fbf1ed7b20cdb",
-    "url": "/static/js/runtime-main.9abe561d.js"
+    "revision": "71e8dc467843ec80a52a",
+    "url": "/static/js/runtime-main.6ff94924.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "d3f0ee13422450b242859e38b8364491",
+    "url": "/static/media/NLC.d3f0ee13.png"
+  },
+  {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "/static/media/airbnbLogo.c59720d6.png"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "988aae144c78fa97a06050d8c00d3b09",
     "url": "/static/media/asp.988aae14.png"
+  },
+  {
+    "revision": "28f7c52eb545913df04293ca91e0df90",
+    "url": "/static/media/ccsc.28f7c52e.png"
   },
   {
     "revision": "b774655da408fcdb0f870656cbcf7ffd",
@@ -132,6 +140,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jsFramework.b05ae5b5.svg"
   },
   {
+    "revision": "9f8c6a72801626320b3135e505013bec",
+    "url": "/static/media/k2.9f8c6a72.png"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/static/media/logo.25bf045c.svg"
   },
@@ -142,6 +154,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "4e9e76f3a13a338b9d07c31725d4569f",
+    "url": "/static/media/opaq.4e9e76f3.png"
   },
   {
     "revision": "47618765efbfc9a5010ad907f7ac8e6d",
@@ -184,11 +200,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stanfordLogo.3b758ef5.png"
   },
   {
-    "revision": "13780cdd0144cacdef25486e2c2503f8",
-    "url": "/static/media/talksCardBack.13780cdd.svg"
+    "revision": "39eff4a91b01e00a32cb78f3797eec88",
+    "url": "/static/media/talksCardBack.39eff4a9.svg"
   },
   {
-    "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
-    "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+    "revision": "7f0feeedda08cf7d68593454bc2e82b5",
+    "url": "/static/media/talksCardBackAlt.7f0feeed.svg"
+  },
+  {
+    "revision": "67c5039ddb8c65f20f3bbe1e637596df",
+    "url": "/static/media/vechile.67c5039d.png"
   }
 ]);

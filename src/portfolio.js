@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Khalid Mehmood",
   title: "Hi all, I'm Khalid",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications, real time chat applications, Swagger UI/APIs and chrome extension with JavaScript / Reactjs / Nodejs / Mongodb / React Redux / Socket io / Firebase and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/184Uwybo_2Ag-HV0LpJAMjyO9BihymrHn/view?usp=sharing"
+  subTitle: emoji("A passionate Software Developer 🚀 who loves turning ideas into powerful digital experiences. Skilled in JavaScript,  Node.js, React.js, Angular.js, Redux, Socket.io, MongoDB, Firebase, and more. Always innovating, always building! ⚡✨"),
+  // resumeLink: "https://drive.google.com/file/d/184Uwybo_2Ag-HV0LpJAMjyO9BihymrHn/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -31,18 +31,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A Crazy Full Stack Developer Ready to Tackle Any Tech Stack!",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web applications"),
-    emoji("⚡ Progressive Web Applications"),
-    emoji("⚡ Develop chrome extension and swagger UI/ APIs"),
-    emoji("⚡ Develop nodejs APIs with swagger UI/ APIs"),
-    emoji("⚡ Develop real time chat web applications with Socket io"),
-    emoji("⚡ Integration of third party services")
+    emoji("⚡ Craft highly interactive Frontend/UI for web apps"),
+    emoji("⚡ Build Progressive Web Applications (PWAs)"),
+    emoji("⚡ Develop Chrome Extensions & Swagger UI/APIs"),
+    emoji("⚡ Create Node.js APIs with Swagger Documentation"),
+    emoji("⚡ Build Real-Time Chat Apps with Socket.io"),
+    emoji("⚡ Integrate Third-Party Services Seamlessly"),
+    emoji("⚡ Always exploring new technologies to keep projects fresh and innovative")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -60,14 +61,18 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Tailwind ",
-      fontAwesomeClassname: "fab fa-css3" 
+      fontAwesomeClassname: "fab fa-css3"
+    },
+    {
+      skillName: "Material UI",
+      fontAwesomeClassname: "fab fa-css3"
     },
 
     {
       skillName: "Font-awesome",
       fontAwesomeClassname: "fab fa-font-awesome-flag"
     },
-  
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -75,6 +80,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Nextjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Angularjs",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "React Native",
@@ -85,6 +98,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
+      skillName: "Expressjs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "Nestjs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
       skillName: "Swagger UI/APIs",
       fontAwesomeClassname: "fas fa-file-alt"
     },
@@ -92,7 +113,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Socket io",
       fontAwesomeClassname: "fab fa-rocketchat"
     },
-   
+
     {
       skillName: "Npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -111,7 +132,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Firebase",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
   ]
 };
 
@@ -168,33 +189,23 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: false, //Set it to true to show workExperiences Section
+  viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Software Engineer - MERN Stack",
+      company: "DPL Pvt. Ltd",
+      companylogo: require("./assets/images/dpl.png"),
+      date: "October 2022 – Present",
+      desc: "I work as a MERN Stack Developer, handling both Front-end and Back-end development. I build dynamic web applications using React.js and Angular for the front-end, while Node.js and MongoDB power the back-end. My role includes developing and maintaining APIs, optimizing performance, and ensuring seamless user experiences across the entire application.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "MERN/MEAN Stack Developer",
+      company: "K2 Peak Technologies",
+      companylogo: require("./assets/images/k2.png"),
+      date: "October 2021 – September 2022",
+      desc: "I worked as a MERN/MEAN Stack Developer, focusing on both Front-end and Back-end development. I was responsible for building and maintaining web applications, handling everything from user interfaces with React.js to server-side development using Node.js and MongoDB."
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+   
   ]
 };
 
@@ -204,7 +215,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "khalidmhd", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -214,6 +225,14 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/NLC.png"),
+      link: "https://vehicle-valeting.herokuapp.com"
+    },
+    {
+      image: require("./assets/images/opaq.png"),
+      link: "https://vehicle-valeting.herokuapp.com"
+    },
     {
       image: require("./assets/images/vechile.png"),
       link: "https://vehicle-valeting.herokuapp.com"
@@ -238,7 +257,7 @@ const bigProjects = {
       image: require("./assets/images/asp.png"),
       link: "http://108.60.209.101:5010/signin"
     },
-   
+
     {
       image: require("./assets/images/itmd.PNG"),
       link: "https://ittemad.herokuapp.com/"
@@ -263,7 +282,7 @@ const bigProjects = {
       image: require("./assets/images/api.png"),
       link: "https://sabzi-ghar.herokuapp.com/swagger/"
     },
-  
+
   ]
 };
 
@@ -362,7 +381,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName: "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };

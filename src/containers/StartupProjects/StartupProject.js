@@ -30,8 +30,8 @@ export default function StartupProject() {
               {bigProjects.projects.map((project) => {
                 return (
                   <div
-                    className="saaya-health-div col-sm-12 col-md-3 col-lg-3 my-2" style={{cursor:'pointer'}}
-                    onClick={() => openProjectInNewWindow(project.link)}
+                    className="saaya-health-div col-sm-12 col-md-3 col-lg-3 my-2"
+                    // onClick={() => openProjectInNewWindow(project.link)}
                   >
                     <img alt="khalid Working" src={project.image}></img>
                   </div>
